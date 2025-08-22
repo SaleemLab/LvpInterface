@@ -18,8 +18,6 @@ public class GenerateLvpMessage : Source<byte[]>
             checkSum ^= b;
         }
 
-        checkSum |= DeviceNumber;
-
         return checkSum;
     }
 
